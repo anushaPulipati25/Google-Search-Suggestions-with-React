@@ -1,0 +1,73 @@
+.mainBgContainer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.bgContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.googleLogo {
+  width: 20%;
+  margin-bottom: 15px;
+}
+.searchBoxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.searchBox {
+  border-width: 0px;
+  color: #475569;
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+  margin-left: 5px;
+  cursor: pointer;
+  width: 90%;
+}
+.searchIcon {
+  width: 20px;
+  height: 20px;
+}
+.googleSearchContainer {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+}
+@media screen and (min-width: 576px) {
+  .googleSearchContainer {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .googleSearchContainer {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .googleSearchContainer {
+    width: 44%;
+  }
+}
+.suggestionsBgContainer {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  margin-top: 0px;
+}
+.noItems {
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
